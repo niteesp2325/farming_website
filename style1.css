@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*box-sizing: border-box;*/
+
+    /* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+    section.introsection{
+      font-size: 86px;
+
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    section.missionsection{
+      font-size: 30px;
+    }
+  }
+
+}
+body{
+    height: auto;
+    background: center / cover no-repeat url("/static/back.jpg");
+}
+#navbar{
+    text-align: center;
+    /*padding: 20px 20px;*/
+    color: #f5eeee;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    padding-top: 0px;
+    margin-top: 0px;
+   
+}
+#navbar ul{
+
+border: 2px solid blue;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: 0px;
+padding: 6px;
+background-color: rgb(86, 26, 26);
+  
+}
+#navbar li{
+    list-style: none;
+   /* border:2px solid green;*/
+    padding: 4px;
+   
+}
+
+#navbar a{
+    
+    color: #f8f2f2;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 4px 43px;
+    
+    margin: 10px;
+    
+
+
+}
+#navbar ul:hover{
+    background-color: rgb(153, 153, 239);
+}
+#navbar a:hover{
+
+  color:#330cdfdc;
+}
+#logo{
+    display: flex;
+    color:rgb(241, 230, 208);
+    align-items: left;
+    margin: 0px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+#logo img{
+    height: 42px;
+    width: 42px;
+    margin-left: 28px;
+   
+
+}
+
+#slogansection{
+    /* border:2px solid rgb(79, 16, 197);*/
+     color: rgb(230, 224, 224);
+     background-color:#6198e1;
+     height: 250px;
+     text-align: center;
+     font-size: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /*margin: 20px;*/
+ 
+ }
+ #slogansection:hover{
+     background-color: rgb(153, 153, 239);
+     color: black;
+ }
+ #slogansection h1{
+     font-size: 40px;
+     text-align: center;
+     color: blue;
+     padding-bottom: 40px;
+ 
+ 
+ }
+
+
+
+
+
+
+
+
+#introsection{
+    
+background: center / cover no-repeat url("/static/intro.jpg");
+opacity: 0.9;
+/*background-color: rgb(130, 15, 212);
+ /*border:2px solid rgb(193, 188, 198);*/
+    height: 550px;
+    display:flex;
+    flex-direction: column;/*befor need to disply:flex;*/
+    text-align:center;
+    justify-content:top;
+    font-size: 40px;
+    color: rgb(118, 217, 230);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*padding-bottom: 41px;*/
+    opacity: 0.9;
+    
+}
+#introsection div.small{
+    margin: 20px;
+    padding: 20px 20px;
+     font-size: 25px;
+}
+#intorsection:hover{
+    background-color: rgb(153, 153, 239);
+    color: black;
+}
+#missionsection{
+   /* border:2px solid rgb(79, 16, 197);*/
+    color: rgb(230, 224, 224);
+    background-color:#3b1719;
+    height: 250px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*margin: 20px;*/
+
+}
+#missionsection:hover{
+    background-color: rgb(153, 153, 239);
+    color: black;
+}
+#missionsection h1{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    padding-bottom: 40px;
+
+
+}
+#sponsorssection
+{
+    flex-direction:row;/*befor need to disply:flex;*/
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    color:blue;
+    background-color: #3b1719;
+    font-size: 25px;
+    justify-content: center;
+    padding:60px;
+    
+    
+
+}
+#sponsorssection h1{
+    padding :30px;
+}
+#sponsorssection img{
+    padding:30px 20px;
+    height: 70px;
+    width: 70px;
+     
+
+}
+#sponsorssection:hover{
+    background-color: rgb(153, 153, 239);
+}
